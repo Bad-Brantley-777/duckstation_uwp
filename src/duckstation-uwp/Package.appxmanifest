@@ -6,12 +6,12 @@
          IgnorableNamespaces="uap mp">
   <Identity
     Name="57bcfd1f-31c1-4f8e-bf91-958732a81506"
-    Publisher="CN=Stenzek"
+    Publisher="CN=DD"
     Version="1.0.0.0" />
   <mp:PhoneIdentity PhoneProductId="57bcfd1f-31c1-4f8e-bf91-958732a81506" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
   <Properties>
-    <DisplayName>DuckStation</DisplayName>
-    <PublisherDisplayName>Stenzek</PublisherDisplayName>
+    <DisplayName>XBSX-Station</DisplayName>
+    <PublisherDisplayName>DD</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
@@ -22,7 +22,7 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="DuckStation.App">
-      <uap:VisualElements DisplayName="DuckStation" Description="A project for a C++/WinRT Universal Windows Platform (UWP) app directly implementing CoreApplication"
+      <uap:VisualElements DisplayName="XBSX-Station" Description="A project for a C++/WinRT Universal Windows Platform (UWP) app directly implementing CoreApplication"
         Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" BackgroundColor="transparent">
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
         <uap:DefaultTile Square71x71Logo="Assets\SmallTile.png" Wide310x150Logo="Assets\WideTile.png" Square310x310Logo="Assets\LargeTile.png"/>
